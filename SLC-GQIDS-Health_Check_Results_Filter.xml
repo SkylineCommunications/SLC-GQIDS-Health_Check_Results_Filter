@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>SLC-GQIDS-Health_Check_Results_Filter</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>DPR</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder></Folder>
+
+	<Protocols>
+	</Protocols>
+
+	<Memory>
+	</Memory>
+
+	<Parameters>
+	</Parameters>
+
+	<Script>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:SLC-GQIDS-Health_Check_Results_Filter_1]]]></Value>
+			<!--<Param type="debug">true</Param>-->
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">Health_Check_Results_Filter</Param>
+			<Message></Message>
+		</Exe>
+	</Script>
+</DMSScript>
